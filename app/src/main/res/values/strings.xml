@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AS_Test</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="register">Register</string>
+    <string name="show_results">Show Results</string>
+    <string name="show">show</string>
+    <string name="email">email</string>
+    <string name="Email">Email</string>
+    <string name="ucid">UCID</string>
+    <string name="password">Password</string>
+</resources>
