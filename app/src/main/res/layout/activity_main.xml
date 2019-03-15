@@ -16,7 +16,7 @@
         android:layout_marginEnd="51dp"
         android:layout_marginRight="51dp"
         android:ems="10"
-        android:hint="@string/first_name"
+        android:hint="@string/fname"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/lname"
@@ -34,17 +34,17 @@
         android:layout_marginEnd="51dp"
         android:layout_marginRight="51dp"
         android:ems="10"
-        android:hint="@string/last_name"
+        android:hint="@string/lname"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/Email"
+        app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fname"
         tools:targetApi="o" />
 
     <EditText
-        android:id="@+id/Email"
+        android:id="@+id/email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="51dp"
@@ -76,7 +76,7 @@
         app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Email"
+        app:layout_constraintTop_toBottomOf="@+id/email"
         tools:targetApi="o" />
 
     <EditText
@@ -87,7 +87,7 @@
         android:layout_marginLeft="51dp"
         android:layout_marginEnd="51dp"
         android:layout_marginRight="51dp"
-        android:layout_marginBottom="121dp"
+        android:layout_marginBottom="19dp"
         android:ems="10"
         android:hint="@string/password"
         android:importantForAutofill="no"
@@ -101,35 +101,49 @@
     <Button
         android:id="@+id/register"
         android:layout_width="218dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="11dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="418dp"
         android:text="@string/register"
-        app:layout_constraintBottom_toTopOf="@+id/show_result"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/show"
         android:layout_width="218dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="7dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="558dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="123dp"
         android:text="@string/show"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/show_result" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/show_result"
         android:layout_width="335dp"
-        android:layout_height="0dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="322dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="184dp"
         android:gravity="center_horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/show"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

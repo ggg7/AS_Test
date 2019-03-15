@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     Button register, show;
     TextView show_result;
     RequestQueue requestQueue;
-    String insertUrl = "https://web.njit.edu/~ggg7/AS_Demo/AS_DEMO.php";
+    String insertUrl = "https://web.njit.edu/~ggg7/AS_Demo/AS_InsertInto.php";
     String showUrl = "https://web.njit.edu/~ggg7/AS_Demo/AS_ShowStudents.php";
 
     @Override
@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ucid = (EditText) findViewById(R.id.UCID);
+        password = (EditText) findViewById(R.id.password);
         fname = (EditText) findViewById(R.id.fname);
         lname = (EditText) findViewById(R.id.lname);
         email = (EditText) findViewById(R.id.email);
